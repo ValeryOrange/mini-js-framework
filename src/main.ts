@@ -17,7 +17,7 @@ type TextNode = string;
 
 type Node = ElemNode | TextNode;
 
-class MiniJSApp {
+class ReactiveNodes {
     private root: HTMLElement;
     private config: Node;
   
@@ -97,5 +97,5 @@ function isObjectEmpty(obj: object): boolean {
 }
 
 export default function createApp(root: HTMLElement, config: ElemNode) {
-    return new MiniJSApp(root, config);
+    return new ReactiveNodes(root, config);
 }

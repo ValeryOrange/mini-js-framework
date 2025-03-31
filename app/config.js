@@ -211,6 +211,8 @@ const main = {
     },
 };
 
+
+// The config is a tree which contains all node elements.
 const config = {
     tag: 'div',
     props: { 

@@ -4,9 +4,10 @@ A lightweight and modular JavaScript framework designed for building modern web 
 
 ## Features
 
-- **Lightweight**: Minimal footprint for faster load times.
+- **Lightweight**: Minimal footprint for faster load times with no external dependencies.
 - **Reactive**: Built-in state management at the root level for dynamic UI updates.
-- **JSON-Based**: Renders HTML from a simple JSON.
+- **Declarative Element Tree**: Define your UI as a tree of elements with properties and children.
+- **Event Handling**: Attach event handlers to elements for interactivity.
 
 ## Installation
 
@@ -25,6 +26,7 @@ npm run build
 ```bash
 npm run preview
 ```
+There is an example config in the `/app` folder that define an interactive UI. You can experiment with editing the config.
 
 ## Usage
 
