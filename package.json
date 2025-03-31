@@ -1,0 +1,30 @@
+{
+  "name": "mini-js-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/main.js",
+    "require": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "preview": "npm run build && serve .",
+    "lint": "eslint 'src/**/*.ts' 'app/**/*.js'",
+    "lint:fix": "eslint --fix 'src/**/*.ts' 'app/**/*.js'",
+    "prepare": "husky"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/jsdom": "^21.1.7",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.0.0",
+    "serve": "^14.2.4",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
+  }
+}
